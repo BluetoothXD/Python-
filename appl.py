@@ -22,18 +22,12 @@ with tab2:
     st.info("у розробці")
 
 with tab3:
-    c1, c2 = st.columns(2)
+    st.subheader("мої улюблені ігри")
+    c1, c2 = st.columns(2)  
     with c1:
-        st.subheader("мої улюблені ігри")
-        st.markdown("Genshin Impact")
-        st.markdown("Roblox")
-        st.markdown("omori")
-        st.markdown("ENA Dream BBQ")
-    with c2:
-        st.image("https://cdn2.unrealengine.com/genshin-impact-version-2-8-3840x2160-357d3d64d056.png?resize=1&w=1280&h=720&quality=medium", width=300)    
-        st.image("https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2020/11/roblox.jpg?w=1600&h=900&fit=crop", width=300)
-        st.image("https://img-eshop.cdn.nintendo.net/i/151f6f31fd0a03be3bfa17d07dfd9f6b7c423063bb46a8678c2ca15b1acce398.jpg", width=300)
-        st.image("https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2134320/capsule_616x353.jpg?t=1755357900", width=300)
+        st.markdown("❤️ - Genshin Impact")
+        st.markdown("👽 - Roblox")
 
-#я не до кінця зрозуміла що означають емодзі-іконки тому просто додала картинки цих ігор:((
-    
+    with c2:
+        st.markdown("🐈‍⬛ - omori")
+        st.markdown("😻 - ENA Dream BBQ")
