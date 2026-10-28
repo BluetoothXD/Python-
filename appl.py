@@ -25,9 +25,9 @@ with tab3:
     st.subheader("мої улюблені ігри")
     c1, c2 = st.columns(2)  
     with c1:
-        st.markdown("❤️ - Genshin Impact")
-        st.markdown("👽 - Roblox")
+        st.markdown("❤️ - Genshin Impact: https://genshin.hoyoverse.com/ru/home")
+        st.markdown("👽 - Roblox: https://www.roblox.com/")
 
     with c2:
-        st.markdown("🐈‍⬛ - omori")
-        st.markdown("😻 - ENA Dream BBQ")
+        st.markdown("🐈‍⬛ - omori: https://store.steampowered.com/app/1150690/OMORI/?l=russian")
+        st.markdown("😻 - ENA Dream BBQ: https://store.steampowered.com/app/2134320/ENA_Dream_BBQ/?l=russian")
